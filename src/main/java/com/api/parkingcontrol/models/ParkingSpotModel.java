@@ -22,7 +22,7 @@ public class ParkingSpotModel implements Serializable {
     private String licensePlateCar;
 
     @Column(nullable = false, length = 70)
-    private String brandCara;
+    private String brandCar;
 
     @Column(nullable = false, length = 70)
     private String modelCar;
@@ -66,12 +66,12 @@ public class ParkingSpotModel implements Serializable {
         this.licensePlateCar = licensePlateCar;
     }
 
-    public String getBrandCara() {
-        return brandCara;
+    public String getBrandCar() {
+        return brandCar;
     }
 
-    public void setBrandCara(String brandCara) {
-        this.brandCara = brandCara;
+    public void setBrandCar(String brandCar) {
+        this.brandCar = brandCar;
     }
 
     public String getModelCar() {
